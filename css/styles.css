@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+  margin: 0px;
+  /* max-width: 1000px; */
+}
+
+#razia-title {
+  font-size: 25px;
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+#hamburger {
+  display: none;
+  font-size: 30px;
+}
+
+#close-button {
+  display: none;
+  font-size: 30px;
+}
+#close-button:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.headshot {
+  width: 25vw;
+}
+
+.navigation {
+  display: flex;
+  width: 100vw;
+  height: 40px;
+  margin: 0px auto;
+  background-color: aquamarine;
+}
+
+.nav-link-container {
+  padding-top: 8px;
+}
+
+.nav-link-container a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  /* padding-top: 8px; */
+  padding-right: 20px;
+}
+
+.navigation a:hover {
+  color: grey;
+}
+
+@media only screen and (max-width: 650px) {
+  .navigation {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px auto;
+    background-color: aquamarine;
+    z-index: 5;
+  }
+  .nav-link-container a {
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    padding-top: 50px;
+    padding-right: 20px;
+  }
+  .nav-link-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #razia-title {
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #hamburger {
+    display: block;
+  }
+  #close-button {
+    display: block;
+  }
+}
