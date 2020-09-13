@@ -1,9 +1,12 @@
+/******** GLOBAL ********/
 body {
   text-align: center;
   margin: 0px;
-  /* max-width: 1000px; */
+  background-color: #D4FCE8;
 }
 
+
+/******** NAVIGATION *********/
 #razia-title {
   font-size: 25px;
   padding-top: 5px;
@@ -27,16 +30,19 @@ body {
   color: grey;
 }
 
-.headshot {
-  width: 25vw;
-}
-
 .navigation {
-  display: flex;
   width: 100vw;
   height: 40px;
   margin: 0px auto;
   background-color: aquamarine;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+.nav-content-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0px auto;
+  justify-content: space-between;
 }
 
 .nav-link-container {
@@ -47,11 +53,14 @@ body {
   text-decoration: none;
   font-size: 20px;
   color: black;
-  /* padding-top: 8px; */
   padding-right: 20px;
 }
 
 .navigation a:hover {
+  color: grey;
+}
+
+#nav-selected {
   color: grey;
 }
 
@@ -89,4 +98,43 @@ body {
   #close-button {
     display: block;
   }
+}
+
+/******** HOMEPAGE *********/
+.home_column_1 {
+  /* display: flex;
+  flex-direction: column; */
+  max-width: 600px;
+  margin: 15px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 1000px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  padding: 10px;
+  color: blueviolet;
+}
+
+.home_column_2 {
+  max-width: 600px;
+  margin: 15px;
+}
+
+.home_column_2 p {
+  font-size: 24px;
+}
+
+.education {
+  margin-top: 50px;
+}
+
+#homepage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
 }
