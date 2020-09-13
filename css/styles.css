@@ -3,6 +3,7 @@ body {
   text-align: center;
   margin: 0px;
   background-color: #D4FCE8;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 
@@ -105,7 +106,7 @@ body {
   /* display: flex;
   flex-direction: column; */
   max-width: 600px;
-  margin: 15px;
+  margin: 30px;
 }
 
 .headshot {
@@ -121,11 +122,12 @@ body {
 
 .home_column_2 {
   max-width: 600px;
-  margin: 15px;
+  margin: 30px;
+  text-align: left;
 }
 
 .home_column_2 p {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .education {
@@ -138,3 +140,19 @@ body {
   justify-content: center;
   margin-top: 40px;
 }
+
+/********* CONTACT **********/
+
+/********* PUBLICATIONS **********/
+.publications-container {
+  max-width: 950px;
+  margin: 0px auto;
+}
+
+/********* RESEARCH **********/
+.research-container {
+  max-width: 950px;
+  margin: 0px auto;
+}
+
+/********* WHYDONTYOULIKEME **********/
