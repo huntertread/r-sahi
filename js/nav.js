@@ -7,6 +7,5 @@ hamburger.onclick = function() {
 }
 
 closeButton.onclick = function() {
-  console.log('click')
   navigation.style.display = 'none';
 }

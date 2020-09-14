@@ -2,7 +2,7 @@
 body {
   text-align: center;
   margin: 0px;
-  background-color: #D4FCE8;
+  background-color: #FEFDFA;
   font-family: Arial, Helvetica, sans-serif
 }
 
@@ -11,10 +11,10 @@ body {
 #razia-title {
   font-size: 25px;
   padding-top: 5px;
-  padding-left: 50px;
   padding-right: 50px;
   text-decoration: none;
-  color: black;
+  color: white;
+  font-weight: bold;
 }
 
 #hamburger {
@@ -33,15 +33,16 @@ body {
 
 .navigation {
   width: 100vw;
-  height: 40px;
+  height: 60px;
   margin: 0px auto;
-  background-color: aquamarine;
+  background-color: #EEC733;
   box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
 }
 
 .nav-content-container {
   display: flex;
   max-width: 1000px;
+  padding-top: 10px;
   margin: 0px auto;
   justify-content: space-between;
 }
@@ -53,22 +54,23 @@ body {
 .nav-link-container a {
   text-decoration: none;
   font-size: 20px;
-  color: black;
-  padding-right: 20px;
+  color: white;
+  padding-left: 20px;
 }
 
 .navigation a:hover {
-  color: grey;
+  /* font-weight: bold; */
+  color: #857a06;
 }
 
 #nav-selected {
-  color: grey;
+  /* font-weight: bold; */
+  color: #857a06;
 }
 
 @media only screen and (max-width: 650px) {
   .navigation {
     display: none;
-    /* display: flex; */
     flex-direction: column;
     width: 100vw;
     height: 100vh;
@@ -103,8 +105,6 @@ body {
 
 /******** HOMEPAGE *********/
 .home_column_1 {
-  /* display: flex;
-  flex-direction: column; */
   max-width: 600px;
   margin: 30px;
 }
@@ -117,7 +117,7 @@ body {
 .social-icons a {
   font-size: 30px;
   padding: 10px;
-  color: blueviolet;
+  color: #c5e8e5;
 }
 
 .home_column_2 {
@@ -131,7 +131,11 @@ body {
 }
 
 .education {
-  margin-top: 50px;
+  margin-top: 80px;
+}
+
+.education h5 {
+  font-size: 14px;
 }
 
 #homepage {
@@ -147,6 +151,75 @@ body {
 .publications-container {
   max-width: 950px;
   margin: 0px auto;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin: 50px auto;
+  text-align: left;
+  padding: 15px;
+}
+
+.publication {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.pub-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pub-authors {
+  font-size: 18px;
+}
+
+.pub-date {
+  color: gray;
+}
+
+.pub-journal {
+  /* color: gray; */
+}
+
+.publication a {
+  border: none;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 3px;
+  background-color: #c5e8e5;
+  color: #007478;
+}
+
+.abstract {
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.view-abstract {
+  color: #007478;
+  border: none;
+  background-color: transparent;
+}
+
+.collapse-abstract {
+  display: none;
+  color: #007478;
+  border: none;
+  background-color: transparent;
+}
+
+.view-abstract:hover {
+  cursor: pointer;
+}
+
+.collapse-abstract:hover {
+  cursor: pointer;
 }
 
 /********* RESEARCH **********/
