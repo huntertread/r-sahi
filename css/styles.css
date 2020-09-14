@@ -1,4 +1,5 @@
 /******** GLOBAL ********/
+/******** GLOBAL ********/
 html {
   background-color: #FEFDFA;
 }
@@ -12,6 +13,7 @@ body {
 }
 
 
+/******** NAVIGATION *********/
 /******** NAVIGATION *********/
 #razia-title {
   font-size: 25px;
@@ -109,6 +111,7 @@ body {
 }
 
 /******** HOMEPAGE *********/
+/******** HOMEPAGE *********/
 .home_column_1 {
   max-width: 600px;
   margin: 30px;
@@ -150,8 +153,26 @@ body {
   margin-top: 40px;
 }
 
-/********* CONTACT **********/
+/********* RESEARCH **********/
+/********* RESEARCH **********/
+.research-container {
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0px auto;
+  justify-content: center;
+}
 
+.research-container p {
+  font-size: 22px;
+  text-align: left;
+}
+
+.research-container img {
+   width: 50%;
+   min-width: 400px;
+   margin-top: 50px;
+ }
+/********* PUBLICATIONS **********/
 /********* PUBLICATIONS **********/
 .publications-container {
   max-width: 950px;
@@ -224,10 +245,13 @@ body {
   cursor: pointer;
 }
 
-/********* RESEARCH **********/
-.research-container {
-  max-width: 950px;
-  margin: 0px auto;
+/********* CONTACT **********/
+/********* CONTACT **********/
+
+.contact-container {
+  margin-top: 150px;
 }
 
-/********* WHYDONTYOULIKEME **********/
+.contact-container p {
+  font-size: 22px;
+}
