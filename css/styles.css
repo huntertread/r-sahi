@@ -114,7 +114,7 @@ body {
 /******** HOMEPAGE *********/
 .home_column_1 {
   max-width: 600px;
-  margin: 50px 30px 30px 30px;
+  margin: 60px 30px 30px 30px;
 }
 
 .headshot {
@@ -152,7 +152,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 40px;
+}
+
+#homepage-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 /********* RESEARCH **********/
@@ -257,4 +263,23 @@ body {
 
 .contact-container p {
   font-size: 22px;
+}
+
+/********* FOOTER **********/
+/********* FOOTER **********/
+
+footer {
+  margin: 0 auto;
+  background-color: rgb(250, 244, 244);
+}
+
+.footer-inner-content {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.footer-email {
+  color: #c5e8e5;
 }
