@@ -16,16 +16,24 @@ var abstractText1 = document.getElementsByClassName('abstract')[1];
 var abstractText2 = document.getElementsByClassName('abstract')[2];
 var abstractText3 = document.getElementsByClassName('abstract')[3];
 
+var hiddenAbstractList = document.getElementsByClassName('hidden');
+var hiddenAbstract0 = document.getElementsByClassName('hidden')[0];
+
 var viewAbstract = function(index) {
   viewButtonList[index].style.display = 'none';
   collapseButtonList[index].style.display = 'block';
   abstractTextList[index].style.display = 'block';
+  hiddenAbstractList[index].style.visibility = 'visible';
+  hiddenAbstractList[index].style.opacity= '1';
+
 }
 
 var collapseAbstract = function(index) {
   viewButtonList[index].style.display = 'block';
   collapseButtonList[index].style.display = 'none';
   abstractTextList[index].style.display = '-webkit-box';
+  hiddenAbstractList[index].style.visibility = 'hidden';
+  hiddenAbstractList[index].style.opacity= '0';
 }
 
 viewButton0.onclick = function() {
