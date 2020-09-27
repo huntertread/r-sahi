@@ -11,6 +11,14 @@ body {
   height: 100vh;
 }
 
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #007478;
+}
 
 /******** NAVIGATION *********/
 /******** NAVIGATION *********/
@@ -60,6 +68,7 @@ body {
 
 .nav-link-container {
   padding-top: 8px;
+  padding-bottom: 50px;
 }
 
 .nav-link-container a {
@@ -120,7 +129,8 @@ body {
   }
   #hamburger {
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
     color: white;
     background-color: #EEC733;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
@@ -178,13 +188,29 @@ body {
   height: 100vh;
 }
 
+@media only screen and (max-width: 650px) {
+  .home_column_1 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .home_column_2 {
+    margin: 0px;
+    padding: 15px;
+  }
+}
+
 /********* RESEARCH **********/
 /********* RESEARCH **********/
 .research-container {
   flex-direction: column;
   max-width: 1000px;
   margin: 0px auto;
-  justify-content: center;
+  text-align: left;
+  padding: 15px;
+}
+
+.research-img-container {
+  text-align: center;
 }
 
 .research-container p {
@@ -193,17 +219,41 @@ body {
 }
 
 .research-container img {
-   width: 50%;
-   min-width: 400px;
+   width: 60%;
+   min-width: 300px;
    margin-top: 50px;
- }
+   margin-bottom: 30px;
+}
 
- #research-layout {
+.research-container ul {
+  font-size: 18px;
+}
+
+.research-container li {
+  padding: 5px;
+}
+
+.research-container a {
+  text-decoration: none;
+  color: #007478;
+}
+
+.research-header {
+   font-size: 30px;
+}
+
+#research-layout {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   height: 100vh;
- }
+}
+
+@media only screen and (max-width: 650px) {
+  .research-container ul {
+    font-size: 16px;
+    padding-inline-start: 20px;
+  }
+}
 
 /********* PUBLICATIONS **********/
 /********* PUBLICATIONS **********/
@@ -285,6 +335,10 @@ body {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 650px) {
+
+}
+
 /********* FOOTER **********/
 /********* FOOTER **********/
 
@@ -313,4 +367,11 @@ footer {
   font-size: 30px;
   padding: 10px;
   color: #007478;
+}
+
+@media only screen and (max-width: 650px) {
+  .social-icons {
+    position: relative;
+    top: 6px;
+  }
 }
