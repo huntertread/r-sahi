@@ -7,7 +7,6 @@ html {
 body {
   text-align: center;
   margin: 0px;
-  /* background-color: #FEFDFA; */
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
 }
@@ -66,12 +65,10 @@ body {
 }
 
 .navigation a:hover {
-  /* font-weight: bold; */
   color: #857a06;
 }
 
 #nav-selected {
-  /* font-weight: bold; */
   color: #857a06;
 }
 
@@ -121,12 +118,6 @@ body {
   width: 300px;
   border-radius: 1000px;
 }
-
-/* .social-icons a {
-  font-size: 30px;
-  padding: 10px;
-  color: #c5e8e5;
-} */
 
 .home_column_2 {
   max-width: 600px;
@@ -276,17 +267,6 @@ body {
   justify-content: space-between;
   height: 100vh;
 }
-
-/********* CONTACT **********/
-/********* CONTACT **********/
-
-/* .contact-container {
-  margin-top: 150px;
-}
-
-.contact-container p {
-  font-size: 22px;
-} */
 
 /********* FOOTER **********/
 /********* FOOTER **********/
