@@ -219,10 +219,15 @@ a {
 }
 
 .research-container img {
-   width: 60%;
+   width: 40%;
    min-width: 300px;
-   margin-top: 50px;
-   margin-bottom: 30px;
+   margin-top: 40px;
+   /* margin-bottom: 10px; */
+}
+
+.mirror {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .research-container ul {
@@ -252,6 +257,9 @@ a {
   .research-container ul {
     font-size: 16px;
     padding-inline-start: 20px;
+  }
+  .mirror {
+    display: none;
   }
 }
 
