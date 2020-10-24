@@ -64,6 +64,7 @@ a {
   padding-top: 10px;
   margin: 0px auto;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .nav-link-container {
@@ -101,10 +102,10 @@ a {
     width: 100vw;
   }
   .nav-content-container {
-    display: flex;
     flex-direction: column;
     margin-left: 0px;
     padding-top: 0px;
+    padding-left: 0px;
     justify-content: center;
   }
   .nav-link-container a {
@@ -129,7 +130,6 @@ a {
   }
   #hamburger {
     display: flex;
-    /* flex-direction: row-reverse; */
     justify-content: space-between;
     color: white;
     background-color: #EEC733;
@@ -370,9 +370,13 @@ footer {
   padding-right: 15px;
 }
 
+.social-icons {
+  height: 100%;
+}
+
 .social-icons a {
   position: relative;
-  top: 8px;
+  top: 15px;
   font-size: 30px;
   padding: 10px;
   color: #007478;
@@ -381,6 +385,5 @@ footer {
 @media only screen and (max-width: 650px) {
   .social-icons {
     position: relative;
-    top: 6px;
   }
 }
