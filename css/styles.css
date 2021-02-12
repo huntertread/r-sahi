@@ -122,14 +122,16 @@ a {
   }
   .fa-bars {
     padding: 5px;
+    float: right;
   }
   #razia-title {
     padding-left: 10px;
     padding-right: 0px;
     padding-top: 8px;
+    float: left;
   }
   #hamburger {
-    display: flex;
+    display: block;
     justify-content: space-between;
     color: white;
     background-color: #EEC733;
