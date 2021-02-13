@@ -131,7 +131,8 @@ a {
     float: left;
   }
   #hamburger {
-    display: block;
+    display: inline-block;
+    width: 100%;
     justify-content: space-between;
     color: white;
     background-color: #EEC733;
