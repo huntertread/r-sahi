@@ -224,9 +224,10 @@ a {
 }
 
 .research-container img {
-   width: 40%;
+   width: 100%;
    min-width: 300px;
    margin-top: 40px;
+   max-height: 400px;
 }
 
 .mirror {
