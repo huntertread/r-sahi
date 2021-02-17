@@ -296,10 +296,17 @@ a {
 
 .pub-date {
   color: gray;
+  position: relative;
+  top: 10px;
 }
 
 .pub-journal {
   font-style: italic;
+}
+
+.pub-link-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .publication a {
@@ -310,6 +317,7 @@ a {
   border-radius: 3px;
   background-color: #c5e8e5;
   color: #007478;
+  margin-top: 5px;
 }
 
 .abstract {
