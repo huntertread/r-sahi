@@ -13,6 +13,7 @@ body {
 
 p {
   font-size: 20px;
+  text-align: justify;
 }
 
 a {
@@ -206,12 +207,44 @@ a {
 
 /********* RESEARCH **********/
 /********* RESEARCH **********/
-.research-container {
+.research-outer-container {
+  display: flex;
   flex-direction: column;
   max-width: 1000px;
   margin: 0px auto;
   text-align: left;
   padding: 15px;
+}
+
+.research-inner-container {
+  display: flex;
+}
+
+/* .research-inner-container @media (max-width: 775px) {
+  flex-direction: column;
+} */
+
+/* .column-left {
+  grid-column-start: 1;
+  grid-column-end: 3;
+} */
+
+/* .column-right {
+  grid-column-start: 3;
+  grid-column-end: 4;
+} */
+
+.research-inner-container img {
+  max-height: 300px;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+img.research-image-top {
+  max-height: 200px;
+  position: relative;
+  top: 50px;
 }
 
 .research-img-container {
@@ -267,6 +300,14 @@ a {
   }
   .mirror {
     display: none;
+  }
+  .research-inner-container {
+    flex-direction: column-reverse;
+  }
+  img.research-image-top {
+    max-height: 200px;
+    position: relative;
+    top: 0px;
   }
 }
 
