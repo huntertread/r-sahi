@@ -1,7 +1,8 @@
 /******** GLOBAL ********/
 /******** GLOBAL ********/
 html {
-  background-color: #FEFDFA;
+  /* background-color: #FEFDFA; */
+  background-color: white;
 }
 
 body {
@@ -361,7 +362,12 @@ img.research-image-top {
   background-color: #c5e8e5;
   color: #007478;
   margin-top: 5px;
+  box-shadow: 2px 2px #007478;
 }
+
+/* .publication a:hover {
+  box-shadow: 3px 3px #007478;
+} */
 
 .abstract {
   overflow: hidden;
@@ -408,7 +414,7 @@ img.research-image-top {
 
 footer {
   margin: 0 auto;
-  background-color: #fdfaf1;
+  background-color: #f3fffd;
   width: 100%;
 }
 
@@ -418,6 +424,7 @@ footer {
   align-content: center;
   margin: 0 auto;
   width: 95%;
+  max-width: 1020px;
 }
 
 .footer-email {
