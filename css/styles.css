@@ -153,7 +153,7 @@ a {
 /******** HOMEPAGE *********/
 .home_column_1 {
   max-width: 600px;
-  margin: 60px 30px 30px 30px;
+  margin: 85px 30px 30px 30px;
 }
 
 .headshot {
@@ -165,11 +165,11 @@ a {
   max-width: 600px;
   margin: 30px;
   text-align: left;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .home_column_2 p {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .education {
@@ -314,6 +314,16 @@ img.research-image-top {
 
 /********* PUBLICATIONS **********/
 /********* PUBLICATIONS **********/
+.pub-header-text {
+  max-width: 950px;
+  margin: 40px auto;
+  text-align: justify;
+  font-size: 20px;
+  padding: 15px;
+  position: relative;
+  top: 15px;
+}
+
 .publications-container {
   max-width: 950px;
   margin: 0px auto;
