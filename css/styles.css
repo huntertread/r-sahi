@@ -17,6 +17,10 @@ p {
   text-align: justify;
 }
 
+.sub-text {
+  font-size: 16px;
+}
+
 a {
   text-decoration: none;
   color: #007478;
@@ -168,9 +172,9 @@ a {
   line-height: 25px;
 }
 
-.home_column_2 p {
+/* .home_column_2 p {
   font-size: 20px;
-}
+} */
 
 .education {
   margin-top: 30px;
