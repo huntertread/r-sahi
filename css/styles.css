@@ -460,6 +460,18 @@ img.research-image-top {
   cursor: pointer;
 }
 
+.pub-link-container .everything-else {
+  background-color: rgb(245, 230, 202);
+  color: #f7a100;
+  box-shadow: 2px 2px #f7a100;
+}
+
+.pub-link-container .journal {
+  background-color: rgb(238, 201, 201);
+  color: #833333;
+  box-shadow: 2px 2px #833333;
+}
+
 @media only screen and (max-width: 650px) {
 
 }
