@@ -199,6 +199,23 @@ a {
   height: 100vh;
 }
 
+.university-logos {
+  display: flex;
+  justify-content: center;
+}
+.university-logos img {
+  margin: 25px;
+}
+.university-logos .ucla {
+  height: 116px;
+}
+.university-logos .nyu {
+  height: 100px;
+}
+.university-logos .gsu {
+  height: 100px;
+}
+
 @media only screen and (max-width: 650px) {
   .home_column_1 {
     margin-top: 30px;
@@ -207,6 +224,30 @@ a {
   .home_column_2 {
     margin: 0px;
     padding: 15px;
+  }
+  .university-logos img {
+    margin: 25px;
+  }
+  .university-logos .ucla {
+    height: 75px;
+  }
+  .university-logos .nyu {
+    height: 75px;
+  }
+  .university-logos .gsu {
+    height: 75px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .university-logos .ucla {
+    height: 50px;
+  }
+  .university-logos .nyu {
+    height: 50px;
+  }
+  .university-logos .gsu {
+    height: 50px;
   }
 }
 
