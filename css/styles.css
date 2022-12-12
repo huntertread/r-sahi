@@ -157,7 +157,10 @@ a {
 /******** HOMEPAGE *********/
 .home_column_1 {
   max-width: 600px;
-  margin: 85px 30px 30px 30px;
+  margin: 30px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .headshot {
@@ -170,6 +173,9 @@ a {
   margin: 30px;
   text-align: left;
   line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* .home_column_2 p {
