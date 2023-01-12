@@ -222,6 +222,13 @@ a {
   height: 100px;
 }
 
+.fa-scholar {
+  content: url('../img/google-scholar.svg');
+  height: 1em;
+  position: relative;
+  top: 5px;
+}
+
 @media only screen and (max-width: 650px) {
   .home_column_1 {
     margin-top: 30px;
@@ -400,9 +407,7 @@ img.research-image-top {
 }
 
 .pub-date {
-  color: gray;
-  position: relative;
-  top: 10px;
+  font-style: normal;
 }
 
 .pub-journal {
