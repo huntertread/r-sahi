@@ -163,6 +163,12 @@ a {
   justify-content: center;
 }
 
+.home_column_1 h3 {
+  font-weight: 500;
+  color: grey;
+  margin-bottom: 0px;
+}
+
 .headshot {
   width: 300px;
   border-radius: 1000px;
