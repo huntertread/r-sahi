@@ -6,6 +6,8 @@ var viewButton3 = document.getElementsByClassName('view-abstract')[3];
 var viewButton4 = document.getElementsByClassName('view-abstract')[4];
 var viewButton5 = document.getElementsByClassName('view-abstract')[5];
 var viewButton6 = document.getElementsByClassName('view-abstract')[6];
+var viewButton7 = document.getElementsByClassName('view-abstract')[7];
+var viewButton8 = document.getElementsByClassName('view-abstract')[8];
 
 var collapseButtonList = document.getElementsByClassName('collapse-abstract');
 var collapseButton0 = document.getElementsByClassName('collapse-abstract')[0];
@@ -15,6 +17,8 @@ var collapseButton3 = document.getElementsByClassName('collapse-abstract')[3];
 var collapseButton4 = document.getElementsByClassName('collapse-abstract')[4];
 var collapseButton5 = document.getElementsByClassName('collapse-abstract')[5];
 var collapseButton6 = document.getElementsByClassName('collapse-abstract')[6];
+var collapseButton7 = document.getElementsByClassName('collapse-abstract')[7];
+var collapseButton8 = document.getElementsByClassName('collapse-abstract')[8];
 
 var abstractTextList = document.getElementsByClassName('abstract');
 var abstractText0 = document.getElementsByClassName('abstract')[0];
@@ -24,6 +28,8 @@ var abstractText3 = document.getElementsByClassName('abstract')[3];
 var abstractText4 = document.getElementsByClassName('abstract')[4];
 var abstractText5 = document.getElementsByClassName('abstract')[5];
 var abstractText6 = document.getElementsByClassName('abstract')[6];
+var abstractText7 = document.getElementsByClassName('abstract')[7];
+var abstractText8 = document.getElementsByClassName('abstract')[8];
 
 var hiddenAbstractList = document.getElementsByClassName('hidden');
 var hiddenAbstract0 = document.getElementsByClassName('hidden')[0];
@@ -99,4 +105,20 @@ viewButton6.onclick = function() {
 
 collapseButton6.onclick = function() {
   collapseAbstract(6)
+}
+
+viewButton7.onclick = function() {
+  viewAbstract(7)
+}
+
+collapseButton7.onclick = function() {
+  collapseAbstract(7)
+}
+
+viewButton8.onclick = function() {
+  viewAbstract(8)
+}
+
+collapseButton8.onclick = function() {
+  collapseAbstract(8)
 }

@@ -227,6 +227,9 @@ a {
 .university-logos .gsu {
   height: 100px;
 }
+.university-logos .princeton {
+  height: 125px;
+}
 
 .fa-scholar {
   content: url('../img/google-scholar.svg');
