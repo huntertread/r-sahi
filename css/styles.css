@@ -538,4 +538,10 @@ footer {
   .social-icons {
     position: relative;
   }
+
+  .footer-email {
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+  }
 }
