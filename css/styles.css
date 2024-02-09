@@ -214,6 +214,7 @@ a {
 .university-logos {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .university-logos img {
   margin: 25px;
