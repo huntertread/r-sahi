@@ -9,6 +9,7 @@ var viewButton6 = document.getElementsByClassName('view-abstract')[6];
 var viewButton7 = document.getElementsByClassName('view-abstract')[7];
 var viewButton8 = document.getElementsByClassName('view-abstract')[8];
 var viewButton9 = document.getElementsByClassName('view-abstract')[9];
+var viewButton9 = document.getElementsByClassName('view-abstract')[10];
 
 var collapseButtonList = document.getElementsByClassName('collapse-abstract');
 var collapseButton0 = document.getElementsByClassName('collapse-abstract')[0];
@@ -21,6 +22,7 @@ var collapseButton6 = document.getElementsByClassName('collapse-abstract')[6];
 var collapseButton7 = document.getElementsByClassName('collapse-abstract')[7];
 var collapseButton8 = document.getElementsByClassName('collapse-abstract')[8];
 var collapseButton9 = document.getElementsByClassName('collapse-abstract')[9];
+var collapseButton9 = document.getElementsByClassName('collapse-abstract')[10];
 
 var abstractTextList = document.getElementsByClassName('abstract');
 var abstractText0 = document.getElementsByClassName('abstract')[0];
@@ -33,6 +35,7 @@ var abstractText6 = document.getElementsByClassName('abstract')[6];
 var abstractText7 = document.getElementsByClassName('abstract')[7];
 var abstractText8 = document.getElementsByClassName('abstract')[8];
 var abstractText9 = document.getElementsByClassName('abstract')[9];
+var abstractText9 = document.getElementsByClassName('abstract')[10];
 
 var hiddenAbstractList = document.getElementsByClassName('hidden');
 var hiddenAbstract0 = document.getElementsByClassName('hidden')[0];
@@ -132,4 +135,12 @@ viewButton9.onclick = function() {
 
 collapseButton9.onclick = function() {
   collapseAbstract(9)
+}
+
+viewButton9.onclick = function() {
+  viewAbstract(10)
+}
+
+collapseButton9.onclick = function() {
+  collapseAbstract(10)
 }
