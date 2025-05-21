@@ -96,6 +96,7 @@ a {
 }
 
 @media only screen and (max-width: 650px) {
+
   .navigation {
     display: none;
     flex-direction: column;
@@ -106,6 +107,7 @@ a {
     z-index: 5;
     position: fixed;
   }
+
   .nav-header-container {
     width: 100vw;
   }
