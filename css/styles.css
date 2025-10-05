@@ -317,6 +317,10 @@ a {
   font-size: 18px;
 }
 
+.apply-here {
+  text-align: center;
+}
+
 /* .research-inner-container @media (max-width: 775px) {
   flex-direction: column;
 } */
