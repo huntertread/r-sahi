@@ -306,10 +306,10 @@ a {
   border-radius: 10px;
   margin: 20px 40px;
   text-align: center;
-  background-color: #c5e8e5;
-  color: #004a4d;
+  background-color: #80b3db;
+  color: #003b68;
   /* margin-top: 5px; */
-  box-shadow: 2px 2px #004a4d;
+  /* box-shadow: 2px 2px #004a4d; */
 }
 
 .new-research-inner-container p {
