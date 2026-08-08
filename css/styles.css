@@ -159,7 +159,7 @@ a {
 /******** HOMEPAGE *********/
 
 #homepage p {
-  text-align: justify;
+  text-align: start;
 }
 
 .home_column_1 {
@@ -417,7 +417,7 @@ img.research-image-top {
 .pub-header-text {
   max-width: 950px;
   margin: 40px auto;
-  text-align: justify;
+  text-align: start;
   font-size: 20px;
   padding: 15px;
   position: relative;
@@ -440,12 +440,12 @@ img.research-image-top {
 }
 
 .pub-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .pub-authors {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .pub-date {
@@ -454,7 +454,7 @@ img.research-image-top {
 
 .pub-journal {
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .pub-link-container {
@@ -465,6 +465,7 @@ img.research-image-top {
 .publication a {
   border: none;
   text-decoration: none;
+  font-size: 14px;
   padding: 5px;
   margin-right: 10px;
   border-radius: 3px;
